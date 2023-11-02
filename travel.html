@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>E-commerce</title>
+    <style>
+        h3{text-align:center;
+            color:white;
+          }
+        .b1{float:right; 
+           }
+        button{justify-content:center;
+              }
+        .b1:hover{color:green;}
+        a{text-decoration:none;
+            margin-left:50px;
+         }
+        i{margin-left:30px;
+         }
+        .demo{background-color:lightgray;
+             padding:3px;
+             margin-bottom:5px;
+            }
+    </style>
+
+</head>
+<body>
+    <div>
+       <div class="container-fluid bg-success p-3">
+            <h3><b><i>Travel</i></b></h3>
+       </div> 
+       <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6 p-3">
+            <div>
+                <label class="form-label"><b>Enter From:</b></label>
+                <input type="text" class="form-control"placeholder="Enter from">
+                </div><br>
+            <div>
+                <label class="form-label"><b>Enter To:</b></label>
+                <input type="text" class="form-control"placeholder="Enter to">
+            </div><br>
+            <div>
+                <input type="date" style="margin-left:20px;" class="mt-1">
+                <button class="btn d-grid b1">Day After</button>
+                <button class="btn d-grid b1">Tomorrow</button>
+                <button class="btn d-grid b1">Today</button>
+                
+            </div><br>
+            <div class="d-grid gap-2">
+                <button class="btn btn-success mb-5" type="button">SEARCH</button>
+            </div>
+            <div><h5>Other Services</h5></div>
+            <div style="display:flex;" class="demo">
+                <a href="" class="me-4 text-reset">
+                    <i class="fa fa-plane"></i>
+                    <p>Book Flight</p>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fa fa-train"></i>
+                    <p>Running Status</p>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fa fa-chair"></i>
+                    <p>Seat Availability</p>
+                </a>
+                
+            </div>
+            <div style="display:flex;" class="demo">
+                <a href="" class="me-4 text-reset">
+                    <i class="fa fa-bus"></i>
+                    <p>Book Bus</p>
+                </a>
+                <a href="" class="me-4 text-reset" style="margin-left:65px;">
+                    <i class="fa fa-calendar"></i>
+                    <p>Schedule</p>
+                </a>
+                <a href="" class="me-4 text-reset"style="margin-left:90px;">
+                    <i class="fa fa-chart-bar"></i>
+                    <p>Charts Vaccancy</p>
+                </a>
+                
+            </div>
+        </div>
+        <div class="col-sm-3">
+        </div>
+       </div>
+    </div>   
+    <!--footer-->
+    <footer class="bg-success">
+    <div class="text-center bg-gray p-4" style="color:white;">
+        ©2023 Copyright
+        <a class="text-reset fw-bold" href="https://OnlineShop.com/">
+            Travels.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+</body>
+</html>
